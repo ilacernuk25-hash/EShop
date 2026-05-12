@@ -224,8 +224,7 @@ formData.append("total", total);
 
 formData.append("_subject", "Новый заказ с Eshop");
 
-await fetch("https://formsubmit.co/ajax/ilacernuk25@gmail.com", { // ⚠️ ЗАМЕНИТЕ НА СВОЙ EMAIL
-
+await fetch("https://formsubmit.co/ajax/ilacernuk25@gmail.com", { // 
 method: "POST",
 
 body: formData
